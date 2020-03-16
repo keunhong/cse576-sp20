@@ -1,0 +1,12 @@
+<span class="link-block link-block-{{ this.class }}">
+  <a href="{{ this.url }}" class="external-link button is-small is-rounded {{ this.button_class }}">
+    <span class="icon">
+      {% if this.icon.startswith('fa') %}
+        <i class="fas {{ this.icon }}"></i>
+      {% elif this.icon.startswith('ai') %}
+        <i class="ai {{ this.icon }}"></i>
+      {% endif %}
+      </span>
+    <span>{{ this.title }}</span>
+  </a>
+</span>

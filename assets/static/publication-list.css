@@ -1,0 +1,33 @@
+
+.publication-title {
+    margin: 10px 0 10px 0 !important;
+}
+
+.publication-banner img {
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-links {
+    margin: 10px 0 10px 0;
+}
+
+.publication-venue {
+    font-size: 14px;
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    font-size: 14px;
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+

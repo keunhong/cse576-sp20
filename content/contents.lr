@@ -1,0 +1,42 @@
+_model: index
+---
+title: CSE 576 Comptuter Vision (Spring 2020)
+---
+intro:
+
+This class is a general introduction to computer vision. It covers standard techniques in image processing like filtering, edge detection, stereo, flow, etc. (old-school vision), as well as newer, machine-learning based computer vision. 
+
+
+#### Instructors
+ - [Steve Seitz](https://homes.cs.washington.edu/~seitz/)
+ - [Rick Szeliski](http://szeliski.org/RichardSzeliski.htm)
+ - Harpreet Sawhney
+
+#### TAs
+ - Svetoslav (Svet) Kolev
+ - Aleksander Hołyński
+ - Keunhong Park
+
+#### Contact
+ - **Course Slack**: there will be a Slack workspace for the class. This will be the main point of contact for this course.
+ - **Email**: for confidential questions, you can reach out to the course staff at cse576-staff@cs.washington.edu 
+
+#### Prerequisites
+ - Data structures
+ - A good working knowledge of C and C++ programming
+ - Linear algebra
+ - Vector calculus
+ - No prior knowledge of vision is assumed.
+
+#### Grading
+ - TBD
+
+#### Late Homework Policy
+ - TBD
+
+#### Student Conduct Code
+The [Student Conduct Code](https://www.washington.edu/cssc/for-students/student-code-of-conduct/) explains that admission to the University carries with it the presumption that students will practice high standards of professional honesty and integrity (WAC 478-120-020 [2]). In particular, all work (homework and exams) is to be your own individual work. You may discuss programs but NOT copy any code. 
+---
+news: *  <b>March 15</b>: Website is up!
+---
+subtitle: Welcome to CSE 576 (Spring 2020)

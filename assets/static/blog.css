@@ -1,0 +1,32 @@
+.blog-snippet {
+  margin: 0.8rem 0;
+}
+
+
+.blog-snippet h2 {
+  font-weight: bold;
+}
+
+.blog-snippet h2, .blog-snippet p {
+  line-height: 1.6;
+  font-size: 1.0em;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-snippet p.meta {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.blog-post p.meta {
+  display: block;
+  text-align: left;
+  font-size: 0.9em;
+  color: #777;
+}
+
+
+.table img {
+  display:block; width:100%; height:auto;
+}

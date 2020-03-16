@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block header %}
+  <link rel="stylesheet" href="{{ '/static/publication.css'|url }}">
+{% endblock %}
+
+{% block body %}
+
+
+  <section class="hero">
+    <div class="hero-body publication-banner"
+         style="background-image: url({{ this.attachments.images.get('background.jpg')|url }})">
+    </div>
+  </section>
+
+  <section class="hero publication-header">
+    <div class="hero-body">
+      <div class="container">
+        <div class="is-size-6 publication-venue">{{ this.venue }}</div>
+        {% if this.awards %}
+          <div class="is-size-6 is-bold publication-awards">{{ this.awards }}</div>
+        {% endif %}
+        <h1 class="title is-1 publication-title">{{ this.title }}</h1>
+        <div class="is-size-5 publication-authors">
+          {% for blk in this.authors.blocks %}
+            {{ blk }}{{ ',' if not loop.last }}
+          {% endfor %}
+        </div>
+
+        <div class="publication-links">
+          {% for blk in this.links.blocks %}
+            {{ blk }}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="content">
+
+        {% if this.youtube_url %}
+          <div class="publication-video">
+            <iframe src="{{ this.youtube_url }}?rel=0&amp;showinfo=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        {% endif %}
+
+        <h2>Abstract</h2>
+        <p>
+          {{ this.abstract }}
+        </p>
+
+        <div class="publication-body">
+          {{ this.body }}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+

@@ -1,0 +1,32 @@
+{% macro render_publications(publications) %}
+  {% for publication in publications %}
+    <div class="item columns">
+      <div class="column is-3">
+        <figure class="image is-1by1">
+          <img class="is-rounded" src="{{ publication.attachments.images.get('teaser.jpg')|url }}"/>
+        </figure>
+      </div>
+      <div class="column">
+        <h3 class="title publication-title is-4">
+          <a href="{{ publication|url }}">{{ publication.title }}</a>
+        </h3>
+        <span class="publication-authors">
+              {% for blk in publication.authors.blocks %}
+                {{ blk }}{{ ',' if not loop.last }}
+              {% endfor %}
+            </span>
+        <br/>
+        <div class="publication-venue">{{ publication.venue }}</div>
+
+        {% if publication.awards %}
+          <div class="publication-awards">{{ publication.awards }}</div>
+        {% endif %}
+        <div class="publication-links">
+          {% for blk in publication.links.blocks %}
+            {{ blk }}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endmacro %}

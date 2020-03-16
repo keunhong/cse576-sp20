@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% import "macros/publication.html" as pub %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block header %}
+  <link rel="stylesheet" href="{{ '/static/index.css'|url }}">
+{% endblock %}
+{% block body %}
+  {% set publications = site.query('/publications').include_undiscoverable(true).all() %}
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="subtitle">
+            <b>{{ this.subtitle }}</b>
+        </h2>
+        <div class="content">
+          {{ this.intro }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">News</h2>
+        <div class="content">{{ this.news }}</div>
+      </div>
+    </div>
+  </section
+
+  <!-- Recent Publications. -->
+  <div class="hr">
+    <div class="container">
+      <hr>
+    </div>
+  </div>
+
+{% endblock %}

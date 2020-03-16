@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block header %}
+  <link rel="stylesheet" href="{{ '/static/blog.css'|url }}">
+{% endblock %}
+{% block body %}
+  <h1>Blog</h1>
+  {% for post in this.pagination.items %}
+  <div class="blog-snippet">
+    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
+    <p class="meta">
+      by {{ post.author }} on {{ post.pub_date|dateformat }}
+    </p>
+    <p class="summary">
+      {{ post.summary }}
+    </p>
+  </div>
+  {% endfor %}
+
+  {% if this.pagination.pages > 1 %}
+    {{ render_pagination(this.pagination) }}
+  {% endif %}
+{% endblock %}

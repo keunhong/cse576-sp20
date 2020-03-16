@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Welcome{% endblock %} — Keunhong Park</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif|Yeon+Sung" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/regular.css"
+        integrity="sha384-EWu6DiBz01XlR6XGsVuabDMbDN6RT8cwNoY+3tIH+6pUCfaNldJYJQfQlbEIWLyA" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css"
+        integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ 'static/css/academicons.min.css'|url }}"/>
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="stylesheet" href="{{ '/static/mybulma.css'|url }}">
+  <link rel="stylesheet" href="{{ '/static/layout.css'|url }}">
+
+  <script src="{{ '/static/layout.js'|url }}"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_SVG"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+          integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+          crossorigin="anonymous"></script>
+
+  <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          webFont: "TeX",
+          skipTags: ["script","noscript","style","textarea"],
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          processEscapes: true
+        }
+      });
+
+
+
+  </script>
+
+  {% block header %}{% endblock %}
+
+
+</head>
+<body>
+
+<nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+        <span class="brand-portrait"></span>
+        <span class="brand-name">Computer Vision</span>
+      </a>
+
+      <a role="button" class="navbar-burger" data-target="navbar-menu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="navbar-menu">
+      <div class="navbar-start">
+        {% for href, title in [
+          ['/', 'About'],
+          ['/calendar', 'Calendar'],
+        ] %}
+          <a class="navbar-item {{ 'is-active' if (href == '/' and href == this.path) or (href != '/' and this.is_child_of(href)) }}"
+             href="{{ href|url }}">
+            <span>{{ title }}</span>
+          </a>
+        {% endfor %}
+      </div>
+      <!-- / navbar-start -->
+    </div>
+    <!-- / nav-menu -->
+  </div>
+</nav>
+
+
+{% block body %}{% endblock %}
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a href="mailto:cse576-staff@cs.washington.edu">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+</footer>
+
+</body>
+</html>
+

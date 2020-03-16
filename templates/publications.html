@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% import "macros/publication.html" as pub %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block header %}
+  <link rel="stylesheet" href="{{ '/static/publication-list.css'|url }}">
+{% endblock %}
+{% block body %}
+  {% set publications = site.query('/publications').include_undiscoverable(true).all() %}
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-3">Publications</h2>
+      {{ pub.render_publications(publications) }}
+    </div>
+  </section>
+
+{% endblock %}

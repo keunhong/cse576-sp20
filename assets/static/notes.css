@@ -1,0 +1,38 @@
+.post {
+  margin: 0.8rem 0.5rem;
+}
+
+.post .body {
+  display: inline-block;
+  border-left: 1px solid #ddd;
+  margin: 0.5rem 0.5rem;
+  padding: 0 1rem;
+}
+
+.post .title {
+  width: 100%;
+}
+
+.post h2 {
+  display: inline;
+  line-height: 1.6;
+  font-size: 1.4em;
+  font-weight: normal;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.post h2 a {
+  text-decoration: none;
+}
+
+.post p.meta {
+  font-size: 0.9em;
+  color: #777;
+  display: inline;
+}
+
+.table img {
+  display:block; width:100%; height:auto;
+}
