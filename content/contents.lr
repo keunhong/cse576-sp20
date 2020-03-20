@@ -6,20 +6,24 @@ intro:
 
 This class is a general introduction to computer vision. It covers standard techniques in image processing like filtering, edge detection, stereo, flow, etc. (old-school vision), as well as newer, machine-learning based computer vision. 
 
-
 #### Instructors
  - [Steve Seitz](https://homes.cs.washington.edu/~seitz/)
  - [Rick Szeliski](http://szeliski.org/RichardSzeliski.htm)
- - Harpreet Sawhney
+ - [Harpreet Sawhney](https://www.linkedin.com/in/harpreet-sawhney-2b024b28/)
 
 #### TAs
  - Svetoslav (Svet) Kolev
- - Aleksander Hołyński
- - Keunhong Park
+ - [Aleksander Hołyński](https://homes.cs.washington.edu/~holynski/)
+ - [Keunhong Park](https://keunhong.com)
 
 #### Contact
- - **Course Slack**: there will be a Slack workspace for the class. This will be the main point of contact for this course.
- - **Email**: for confidential questions, you can reach out to the course staff at cse576-staff@cs.washington.edu 
+ - **Course Slack**: there will be a Slack workspace for the class. This will be the main point of contact for this course. You will be emailed instructions on how to sign up.
+ - **Email**: To contact the course staff (instructors + TAs), email [cse576-staff@cs.washington.edu](mailto:cse576-staff@cs.washington.edu)
+
+#### Lectures
+ - **When**: Tuesdays and Thursdays from 3:00pm-4:20pm
+ - ** Where**: Lectures will be on Zoom this quarter.
+ - **How**: Join at https://washington.zoom.us/j/placeholder
 
 #### Prerequisites
  - Data structures
@@ -28,11 +32,17 @@ This class is a general introduction to computer vision. It covers standard tech
  - Vector calculus
  - No prior knowledge of vision is assumed.
 
+#### Textbook
+
+ - Richard Szeliski, [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/)
+
 #### Grading
- - TBD
+ - Grading is based on homework only.
+ - We will have no exams.
 
 #### Late Homework Policy
- - TBD
+ - Homework is due on time.
+ - Late homework will be penalized.
 
 #### Student Conduct Code
 The [Student Conduct Code](https://www.washington.edu/cssc/for-students/student-code-of-conduct/) explains that admission to the University carries with it the presumption that students will practice high standards of professional honesty and integrity (WAC 478-120-020 [2]). In particular, all work (homework and exams) is to be your own individual work. You may discuss programs but NOT copy any code. 

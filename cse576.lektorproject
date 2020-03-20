@@ -5,7 +5,7 @@ name = cse576-sp20
 name = Production
 enabled = yes
 default = yes
-target = rsync://kpar@nescafe.cs.washington.edu/cse/web/courses/cse576/20sp/test
+target = rsync://kpar@nescafe.cs.washington.edu/cse/web/courses/cse576/20sp
 
 [packages]
 lektor-markdown-excerpt = 0.1

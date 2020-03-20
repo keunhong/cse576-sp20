@@ -4,6 +4,10 @@
 body {
 }
 
+.header {
+	background: url('./header.jpg') center center; background-size:cover;
+}
+
 .navbar-brand {
     vertical-align: middle;
 }
