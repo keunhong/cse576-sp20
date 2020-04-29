@@ -54,29 +54,29 @@ body:
   <tr> 
     <td>April 16</td>
     <td>Machine Learning</td>
-    <td></td>
+    <td><a href="lecture6_machinelearning_v5.pdf">pdf</a>, <a  href="lecture6_machinelearning_v5.pptx">pptx</a></td>
     <td><a href="http://szeliski.org/Book/2ndEdition.htm">Szeliski</a>, Chapter 5.1-5.2</td>
     <td></td>
   </tr>
   <tr>
     <td>April 21</td>
     <td>Neural Networks</td>
-    <td></td>
+    <td><a href="lecture7_neuralnetworks.pdf">pdf</a>, <a  href="lecture7_neuralnetworks.pptx">pptx</a></td>
     <td><a href="http://szeliski.org/Book/2ndEdition.htm">Szeliski</a>, Chapter 5.3</td>
     <td></td>
   </tr>
   <tr>
     <td>April 23</td>
     <td>Convolutional Neural Networks</td>
-    <td></td>
+    <td><a href="lecture8_convolutionalneuralnetworks_v4.pdf">pdf</a>, <a  href="lecture8_convolutionalneuralnetworks_v4.pptx">pptx</a></td>
     <td><a href="http://szeliski.org/Book/2ndEdition.htm">Szeliski</a>, Chapter 5.4</td>
-    <td>HW2 due, HW3 assigned</td>
+    <td>HW2 due, <a href="https://github.com/holynski/cse576_sp20_hw3">HW3</a> assigned</td>
   </tr>
   <tr>
     <td>April 28</td>
     <td>Network Architectures</td>
-    <td></td>
-    <td><a href="http://szeliski.org/Book/2ndEdition.htm">Szeliski</a>, Chapter 5.4-5.5</td>
+    <td><a href="lecture9_networkarchitectures_v3.pdf">pdf</a>, <a  href="lecture9_networkarchitectures_v3.pptx">pptx</a></td>
+    <td><a href="http://szeliski.org/Book/2ndEdition.htm">Szeliski</a>, Chapter 5.4</td>
     <td></td>
   </tr>
   <tr>

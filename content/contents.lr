@@ -7,6 +7,7 @@ intro:
 This class is a general introduction to computer vision. It covers standard techniques in image processing like filtering, edge detection, stereo, flow, etc. (old-school vision), as well as newer, machine-learning based computer vision. 
 
 ## News
+ - **April 23**: [HW3](https://github.com/holynski/cse576_sp20_hw3) is out. Due on May 7 (Thu).
  - **April 9**: [HW2](https://github.com/holynski/cse576_sp20_hw2) is out. Due on April 23 (Thu).
  - **April 2**: [HW1](https://github.com/holynski/cse576_sp20_hw1) is out. Due on April 9 (Thu).
  -  **March 28**: Initial draft of [textbook](http://szeliski.org/Book/2ndEdition.htm) is ready.

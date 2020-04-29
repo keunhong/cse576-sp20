@@ -1,0 +1,20 @@
+_model: page
+---
+title: Homework 4
+---
+body:
+
+Welcome friends, it's time for Deep Learning with PyTorch! PyTorch is a deep learning framework for fast, flexible experimentation. We are going to use it to train our classifiers.
+
+This homework might need a longer running time. Keep this in mind and start early.
+
+We will be using a Jupyter Notebook for this assignment, through Google Colab. Jupyter notebooks are a great tool for research for outside of this class as well.
+
+### Here's how to get started:
+
+1. Open the [assignment on Colab](https://colab.research.google.com/drive/1ph_jlpVsqMFWWDH7tbg8gK0JkiR4xBzc)
+2. Click on `Open in Playground`
+3. Follow the instructions on the notebook!
+
+<img src="./colab_step2.png" alt="Step 2" width="500px" />
+
