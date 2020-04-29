@@ -12,9 +12,10 @@ We will be using a Jupyter Notebook for this assignment, through Google Colab. J
 
 ### Here's how to get started:
 
-1. Open the [assignment on Colab](https://colab.research.google.com/drive/1ph_jlpVsqMFWWDH7tbg8gK0JkiR4xBzc)
-2. Click on `Open in Playground`
+1. Make sure you're logged in to your Google Drive account (your UW account should work for this). Check [Google Drive](http://drive.google.com) to make sure you're signed in.
+2. Open the [assignment on Colab](https://colab.research.google.com/drive/1ph_jlpVsqMFWWDH7tbg8gK0JkiR4xBzc)
+3. Click on `File => Save a copy in Drive`. This should open a new tab with your (saveable) copy. **Make sure to do this**, otherwise you won't be able to save your results, and may lose your work.  
 3. Follow the instructions on the notebook!
 
-<img src="./colab_step2.png" alt="Step 2" width="500px" />
+<img src="./colab_step3.png" alt="Step 3" width="500px" />
 
