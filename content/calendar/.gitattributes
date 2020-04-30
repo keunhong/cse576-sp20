@@ -1,0 +1,14 @@
+lecture6_machinelearning_v5.pdf filter=lfs diff=lfs merge=lfs -text
+lecture7_neuralnetworks.pdf filter=lfs diff=lfs merge=lfs -text
+lecture8_convolutionalneuralnetworks_v3.pdf filter=lfs diff=lfs merge=lfs -text
+lecture8_convolutionalneuralnetworks_v4.pdf filter=lfs diff=lfs merge=lfs -text
+lecture9_networkarchitectures_v3.pdf filter=lfs diff=lfs merge=lfs -text
+lecture10_segmentationdetection_v3.pdf filter=lfs diff=lfs merge=lfs -text
+lecture5-interpolationandoptimization.pdf filter=lfs diff=lfs merge=lfs -text
+lecture5-interpolationandoptimization.pptx filter=lfs diff=lfs merge=lfs -text
+lecture6_machinelearning_v5.pptx filter=lfs diff=lfs merge=lfs -text
+lecture7_neuralnetworks.pptx filter=lfs diff=lfs merge=lfs -text
+lecture8_convolutionalneuralnetworks_v3.pptx filter=lfs diff=lfs merge=lfs -text
+lecture8_convolutionalneuralnetworks_v4.pptx filter=lfs diff=lfs merge=lfs -text
+lecture9_networkarchitectures_v3.pptx filter=lfs diff=lfs merge=lfs -text
+lecture10_segmentationdetection_v3.pptx filter=lfs diff=lfs merge=lfs -text
