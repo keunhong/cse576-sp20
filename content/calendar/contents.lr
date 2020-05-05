@@ -88,8 +88,8 @@ body:
   </tr>
   <tr>
     <td>May 5</td>
-    <td>Detection and Instance Segmentation</td>
-    <td></td>
+    <td> Deep Learning Frameworks, Panoptic Segmentation, and Video</td>
+    <td><a href="lecture11_softwareandmore_v2.pdf">pdf</a>, <a  href="lecture11_softwareandmore_v2.pptx">pptx</a></td>
     <td><a href="http://szeliski.org/Book/2ndEdition.htm">Szeliski</a>, Chapter 6.4</td>
     <td></td>
   </tr>

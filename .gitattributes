@@ -1,2 +1,4 @@
 content/calendar/lecture10_segmentationdetection_v4.pdf filter=lfs diff=lfs merge=lfs -text
 content/calendar/lecture10_segmentationdetection_v4.pptx filter=lfs diff=lfs merge=lfs -text
+content/calendar/lecture11_softwareandmore_v2.pptx filter=lfs diff=lfs merge=lfs -text
+content/calendar/lecture11_softwareandmore_v2.pdf filter=lfs diff=lfs merge=lfs -text
